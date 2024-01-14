@@ -360,3 +360,22 @@ a {
     row-gap: 15px;
   }
 }
+.footer{
+  display: grid;
+  justify-content: center;
+  justify-items: center; 
+}
+.footer p{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+.footer a{
+  font-style: var(--body-font);
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+  font-weight: 200;
+}
